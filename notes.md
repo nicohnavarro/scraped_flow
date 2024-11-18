@@ -114,4 +114,6 @@ npm i --save-dev @tanstack/react-query-devtools
 3. Refetch intervals
 4. Query Keys
   
-  
+### Add Zod form
+
+1. Define zod schema
