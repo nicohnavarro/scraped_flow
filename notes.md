@@ -75,3 +75,35 @@ Generate the toggle theme
 ```bash
 npm i @clerk/nextjs@5.3.2
 ```
+
+
+### workflow json
+
+| Key             | Value       |
+| --------------- | ----------- |
+| id              | string      |
+| userId          | string      |
+| name            | string      |
+| description     | string      |
+| definition      | string      |
+| status          | string      |
+| createdAt       | timestamp   |
+| updatedAt       | timestamp   |
+
+### Install prisma
+```bash
+npm i --save-dev prisma
+npm i @prima/client
+npx prisma init --datasource-provider sqlite
+npx prisma migrate dev
+npx prisma studio
+```
+
+### Create workflow
+```bash
+npm i @tanstack/react-query
+```
+```bash
+npm i --save-dev @tanstack/react-query-devtools
+```
+
