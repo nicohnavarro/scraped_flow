@@ -67,3 +67,11 @@ We need to add variants to the active link button in sidebar
 ```bash
 npm i next-themes
 ```
+
+Generate the toggle theme
+
+### Add Clerk Auth
+
+```bash
+npm i @clerk/nextjs@5.3.2
+```
