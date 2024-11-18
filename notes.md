@@ -107,3 +107,11 @@ npm i @tanstack/react-query
 npm i --save-dev @tanstack/react-query-devtools
 ```
 
+### Why React-Query
+
+1. Callbacks (Success - Fail)
+2. Caching
+3. Refetch intervals
+4. Query Keys
+  
+  
