@@ -1,7 +1,6 @@
 import { GetWorkflowsForUser } from "@/actions/workflows/getWorkflowsForUser";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Skeleton } from "@/components/ui/skeleton";
-import { waitFor } from "@/lib/helper/waitFor";
 import { AlertCircle, InboxIcon } from "lucide-react";
 import React, { Suspense } from "react";
 import CreateWorkflowDialog from "./_components/CreateWorkflowDialog";
@@ -67,7 +66,7 @@ async function UserWorkflows() {
     );
   }
 
-  return <div className=""></div>;
+  return <pre>{JSON.stringify(workflows, null, 4)}</pre>;
 }
 
 export default page;
