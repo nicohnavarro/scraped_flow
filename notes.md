@@ -8,15 +8,12 @@ We need to use this specific version
 npx create-next-app@14.2.5
 ```
 
-###
-
 - [x] Typescript
 - [x] ESLint
 - [x] Tailwind CSS
 - [ ] src/ directory
 - [x] App router
 - [x] Import alias
-
 
 ```bash
 npx shadcn@2.1.0 init
@@ -29,6 +26,7 @@ npx shadcn@2.1.0 init
 ```bash
 npx shadcn@2.1.0 add
 ```
+
 > Select all components
 
 ### Variant Button
@@ -61,8 +59,7 @@ We need to add variants to the active link button in sidebar
     },
 ```
 
-
-### Add Themes
+## Add Themes
 
 ```bash
 npm i next-themes
@@ -76,21 +73,21 @@ Generate the toggle theme
 npm i @clerk/nextjs@5.3.2
 ```
 
-
 ### workflow json
 
-| Key             | Value       |
-| --------------- | ----------- |
-| id              | string      |
-| userId          | string      |
-| name            | string      |
-| description     | string      |
-| definition      | string      |
-| status          | string      |
-| createdAt       | timestamp   |
-| updatedAt       | timestamp   |
+| Key         | Value     |
+| ----------- | --------- |
+| id          | string    |
+| userId      | string    |
+| name        | string    |
+| description | string    |
+| definition  | string    |
+| status      | string    |
+| createdAt   | timestamp |
+| updatedAt   | timestamp |
 
 ### Install prisma
+
 ```bash
 npm i --save-dev prisma
 npm i @prima/client
@@ -100,9 +97,11 @@ npx prisma studio
 ```
 
 ### Create workflow
+
 ```bash
 npm i @tanstack/react-query
 ```
+
 ```bash
 npm i --save-dev @tanstack/react-query-devtools
 ```
@@ -113,7 +112,8 @@ npm i --save-dev @tanstack/react-query-devtools
 2. Caching
 3. Refetch intervals
 4. Query Keys
-  
+
 ### Add Zod form
 
 1. Define zod schema
+
