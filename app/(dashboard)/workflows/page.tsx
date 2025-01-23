@@ -6,7 +6,12 @@ import React, { Suspense } from "react";
 import CreateWorkflowDialog from "./_components/CreateWorkflowDialog";
 import WorkflowCard from "./_components/WorkflowCard";
 
-function page() {
+export const metadata = {
+  title: "Workflows",
+  description: "Manage your workflows",
+};
+
+function Page() {
   return (
     <div className="flex-1 flex flex-col h-full p-3">
       <div className="flex justify-between">
@@ -76,4 +81,4 @@ async function UserWorkflows() {
   );
 }
 
-export default page;
+export default Page;
